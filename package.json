@@ -1,0 +1,27 @@
+{
+  "name": "proyectofinal2",
+  "version": "1.0.0",
+  "description": "Proyecto final digitalmind",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Agustin Violante",
+  "license": "ISC",
+  "devDependencies": {
+    "dart-sass": "^1.25.0",
+    "grunt": "^1.5.3",
+    "grunt-browser-sync": "^2.2.0",
+    "grunt-contrib-uglify": "^5.2.2",
+    "grunt-contrib-watch": "^1.1.0",
+    "grunt-dart-sass": "^2.0.1",
+    "sass": "^1.54.4"
+  },
+  "dependencies": {
+    "@fancyapps/ui": "^4.0.31",
+    "bootstrap": "^5.2.0",
+    "boxicons": "^2.1.2",
+    "hamburgers": "^1.2.1",
+    "swiper": "^8.3.2"
+  }
+}
