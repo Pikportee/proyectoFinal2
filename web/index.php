@@ -43,15 +43,15 @@ include('../config/db.php');
         <div class="row">
           <div class="col-md-4 mb-4 mb-md-0">
           <article class="noticias-front">
-                        <a href="#">
+                        <a href="<?php print $mostrar['url']?>">
                         <figure><?php echo '<img src="imagenes/'.$mostrar['imagen'].'.jpg" width="300px" height="300px" alt="articulo1" class="img-fluid>"';?></figure>
                         <div class="contenido">
                             <p class="precio"><?php echo'$' . $mostrar['precio'];?></p>
                         <h2><?php echo $mostrar['producto'];?>
                         </h2>
                         </div>
-                        </a>
                         <button class="mas">Ver más</button>
+                        </a>                        
                     </article>
           </div>
 
@@ -59,29 +59,29 @@ include('../config/db.php');
           <div class="col-md-4 mb-4 mb-md-0">
             
                     <article class="noticias-front">
-                    <a href="#">
+                    <a href="<?php print $mostrar['url']?>">
                     <figure><?php echo '<img src="imagenes/'.$mostrar['imagen'].'.jpg" width="300px" height="300px" alt="articulo1" class="img-fluid>"';?></figure>
                     <div class="contenido">
                     <p class="precio"><?php echo'$' . $mostrar['precio'];?></p>
                     <h2><?php echo $mostrar['producto'];?>
                     </h2>
                     </div>
-                    </a>
                     <button class="mas">Ver más</button>
-                </article>
+                    </a>
+                    </article>
             </div>
 
             <div class="col-md-4 mb-4 mb-md-0">
                     <article class="noticias-front">
-                    <a href="#">
+                    <a href="<?php print $mostrar['url']?>">
                     <figure><?php echo '<img src="imagenes/'.$mostrar['imagen'].'.jpg" width="300px" height="300px" alt="articulo1" class="img-fluid>"';?></figure>
                     <div class="contenido">
                     <p class="precio"><?php echo'$' . $mostrar['precio'];?></p>
                     <h2><?php echo $mostrar['producto'];?>
                     </h2>
                     </div>
-                    </a>
                     <button class="mas">Ver más</button>
+                    </a>
                 </article>
             </div>
         </div>

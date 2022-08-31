@@ -29,9 +29,9 @@
 						<div class="col-6 col-lg-3">
 							<h4>Categorias</h4>
 							<ul class="list-unstyled mb-0 text-small">
-								<li class="mb-2"><a href="#" class="text-light">Monitores</a></li>
-								<li class="mb-2"><a href="#" class="text-light">Notebooks</a></li>
-								<li class="mb-2"><a href="#" class="text-light">PC armadas</a></li>
+								<li class="mb-2"><a href="#Monitores" class="text-light">Monitores</a></li>
+								<li class="mb-2"><a href="#Notebooks" class="text-light">Notebooks</a></li>
+								<li class="mb-2"><a href="#PC armadas" class="text-light">PC armadas</a></li>
 							</ul>
 						</div>
 						<div class="col-6 col-lg-3 mt-5 mt-lg-0">
@@ -51,3 +51,4 @@
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
 <script src="js/script.min.js"></script>
 <script src="../desarrollo/js/script.js"></script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBDaeWicvigtP9xPv919E-RNoxfvC-Hqik&callback=iniciarMap"></script>

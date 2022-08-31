@@ -21,7 +21,7 @@ h1 a {
   color: #3AE229;
 }
 
-.nav-item {
+.nav-link {
   color: white;
 }
 
@@ -77,6 +77,194 @@ footer li:hover {
 }
 footer li a {
   text-decoration: none;
+}
+
+#bloque {
+  padding: 30px;
+  border: 3px solid grey;
+}
+#bloque img {
+  width: 100%;
+}
+#bloque #precio {
+  margin-top: 11%;
+  color: white;
+}
+#bloque #precio h2 {
+  color: #3AE229;
+  font-size: 40px;
+  text-align: center;
+}
+#bloque #precio h3 {
+  font-size: 20px;
+}
+#bloque .comprar {
+  font-weight: 500;
+  padding: 3% 10%;
+  border-radius: 13px;
+  font-size: 25px;
+  background-color: #3AE229;
+  margin-top: 95%;
+  margin-left: 22%;
+}
+#bloque .comprar:hover {
+  box-shadow: 3px 3px 0px 2px rgba(0, 0, 0, 0.4);
+  font-weight: 500;
+}
+@media (max-width: 1200px) {
+  #bloque .comprar {
+    margin-top: 10px;
+    margin-left: 37px;
+  }
+}
+@media (max-width: 991px) {
+  #bloque .comprar {
+    font-size: 17px;
+    margin-left: 28px;
+  }
+}
+@media (max-width: 767px) {
+  #bloque .comprar {
+    font-size: 20px;
+    margin-left: 110px;
+  }
+}
+#bloque .a {
+  margin-top: 65%;
+  margin-left: 22%;
+  font-size: 25px;
+}
+@media (max-width: 1200px) {
+  #bloque .a {
+    margin-top: 10px;
+    margin-left: 37px;
+  }
+}
+@media (max-width: 991px) {
+  #bloque .a {
+    font-size: 17px;
+    margin-left: 28px;
+  }
+}
+@media (max-width: 767px) {
+  #bloque .a {
+    font-size: 20px;
+    margin-left: 110px;
+  }
+}
+
+.direccion {
+  color: white;
+}
+
+#map {
+  height: 500px;
+  width: 100%;
+}
+
+.infoC {
+  padding: 30px;
+  border: 3px solid grey;
+}
+.infoC label {
+  color: white;
+}
+.infoC .btn-24,
+.infoC .btn-24 *,
+.infoC .btn-24 :after,
+.infoC .btn-24 :before,
+.infoC .btn-24:after,
+.infoC .btn-24:before {
+  border: 0 solid;
+  box-sizing: border-box;
+}
+.infoC .btn-24 {
+  -webkit-tap-highlight-color: transparent;
+  -webkit-appearance: button;
+  background-color: #3AE229;
+  background-image: none;
+  color: #000;
+  cursor: pointer;
+  font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+  font-size: 100%;
+  font-weight: 900;
+  line-height: 1.5;
+  margin: 0;
+  -webkit-mask-image: -webkit-radial-gradient(#3AE229, #8E44AD);
+  padding: 0;
+  text-transform: uppercase;
+}
+.infoC .btn-24:disabled {
+  cursor: default;
+}
+.infoC .btn-24:-moz-focusring {
+  outline: auto;
+}
+.infoC .btn-24 svg {
+  display: block;
+  vertical-align: middle;
+}
+.infoC .btn-24 [hidden] {
+  display: none;
+}
+.infoC .btn-24 {
+  --background: #3AE229;
+  background: none;
+  overflow: hidden;
+  padding: 0.8rem 3rem;
+  position: relative;
+}
+.infoC .btn-24 span {
+  display: block;
+  position: relative;
+  transition: transform 0.2s ease;
+}
+.infoC .btn-24:after,
+.infoC .btn-24:before {
+  --tilt: 20px;
+  background: #000;
+  -webkit-clip-path: polygon(0 0, 100% 0, 100% 50%, 100% 100%, 0 100%);
+  clip-path: polygon(0 0, 100% 0, 100% 50%, 100% 100%, 0 100%);
+  content: "";
+  display: block;
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  transition: -webkit-clip-path 0.2s ease;
+  transition: clip-path 0.2s ease;
+  transition: clip-path 0.2s ease, -webkit-clip-path 0.2s ease;
+  width: 100%;
+  z-index: -1;
+}
+.infoC .btn-24:after {
+  --thickness: 5px;
+  background: var(--background);
+  height: calc(100% - var(--thickness) * 2);
+  left: var(--thickness);
+  top: var(--thickness);
+  width: calc(100% - var(--thickness) * 2);
+}
+.infoC .btn-24:hover span {
+  transform: translateX(-20px);
+}
+.infoC .btn-24:hover:after,
+.infoC .btn-24:hover:before {
+  -webkit-clip-path: polygon(0 0, calc(100% - var(--tilt)) 0, 100% 50%, calc(100% - var(--tilt)) 100%, 0 100%);
+  clip-path: polygon(0 0, calc(100% - var(--tilt)) 0, 100% 50%, calc(100% - var(--tilt)) 100%, 0 100%);
+}
+
+.direccion {
+  padding: 15px 0px 0px 15px;
+  font-size: 20px;
+  color: gray;
+}
+.direccion span {
+  color: #8E44AD;
+}
+
+.noir {
+  color: red;
 }
 
 /*# sourceMappingURL=estilo.css.map */
