@@ -25,7 +25,7 @@
         </li>
       </ul>
       <div class="buscador">
-      <form class="d-flex" role="search" type="POST">
+      <form action="../buscador.php" class="d-flex" role="search" type="POST">
         <input class="form-control me-3" type="search" placeholder="Buscador" aria-label="Search" name="busqueda">
         <button class="btn btn-outline-success" type="submit" name="enviar">Buscar</button>
       </form>
